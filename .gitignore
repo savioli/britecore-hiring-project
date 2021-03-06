@@ -1,6 +1,3 @@
-/britecore-backend
-/britecore-frontend
-/britecore-api-specs
 .vscode
 .vagrant
 Vagrantfile
