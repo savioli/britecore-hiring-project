@@ -1,5 +1,7 @@
 #!/bin/bash
 
+docker context use default
+
 docker-compose -f ./britecore-backend/docker-compose.yaml down
 docker-compose -f ./britecore-frontend/docker-compose.yaml down
 
