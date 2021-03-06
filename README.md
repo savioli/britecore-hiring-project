@@ -153,17 +153,17 @@ In this topic are listed all the Tasks accomplished as well as the **Bonus Point
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1** - Another that returns a list of all risk types.     :heavy_check_mark: **Done!**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2** - One that returns a single risk type.  Include all of the risk types’ fields, field types,   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and any other data about the fields.    :heavy_check_mark: **Done!**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3** - A well-tested REST API written in Python using Django 3.1.7 **[**✨**Bonus Points**✨  :heavy_check_mark: **Done! ]**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3** - A well-tested REST API written in Python using Django 3.1.7 **[** ✨**Bonus Points**✨  :heavy_check_mark: **Done! ]**  
 
 ### [**2.2.1 Extra Deliverables for BackEnd**]()  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1** - Repository configured to use **pre-commit** with **flake8**, **isort**, and **black** to ensure code style, quality, the **PEP8** compliance and that avoids antipatterns.  
 
 ## 2.3 FrontEnd
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1** - A modern JavaScript app using **ES6** and a modern JavaScript framework **[**✨**Bonus Points**✨  :heavy_check_mark: **Done!**  **]**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;specifically using **Vue 3** **[**✨✨**Mega Bonus Points**✨✨:heavy_check_mark: **Done! ]**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1** - A modern JavaScript app using **ES6** and a modern JavaScript framework **[** ✨**Bonus Points**✨  :heavy_check_mark: **Done!**  **]**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;specifically using **Vue 3** **[** ✨✨**Mega Bonus Points**✨✨ :heavy_check_mark: **Done! ]**  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1.1** - A page that lists all the Risks  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1.2** - A page that shows the respective form selected  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1.1** - A page that lists all the Risks :heavy_check_mark: **Done!**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1.2** - A page that shows the respective form selected :heavy_check_mark: **Done!**  
 ### [**2.3.1 Extra Deliverables for FrontEnd**](#)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1** - Repository configured to use **ESLint** and **Prettier** to ensure code style, quality, and **Vue.js** development conventions and best practices  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2** - A search in the list page that filters risks by name  
@@ -171,8 +171,8 @@ In this topic are listed all the Tasks accomplished as well as the **Bonus Point
 
 ## 2.4 Production Environment
   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1** - Launch environment orchestrated in **AWS** using **CloudFormation** **[**✨**Bonus Points**✨  :heavy_check_mark: **Done! ]**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2** - Launch AWS using **CloudFormation** with **AWS ECS and Fargate** **[**✨✨**Mega Bonus Points**✨✨:heavy_check_mark: **Done! ]**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1** - Launch environment orchestrated in **AWS** using **CloudFormation** **[** ✨**Bonus Points**✨  :heavy_check_mark: **Done! ]**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2** - Launch **AWS** using **CloudFormation** with **AWS ECS and Fargate** **[** ✨✨**Mega Bonus Points**✨✨ :heavy_check_mark: **Done! ]**  
 
 ### [**2.4.1 Extra Deliverables for Production Environment**]()  
 
