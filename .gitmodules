@@ -1,3 +1,6 @@
 [submodule "britecore-api-specs"]
 	path = britecore-api-specs
 	url = https://github.com/savioli/britecore-api-specs.git
+[submodule "britecore-frontend"]
+	path = britecore-frontend
+	url = https://github.com/savioli/britecore-frontend.git
