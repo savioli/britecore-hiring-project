@@ -5,7 +5,7 @@ docker-compose -f ./britecore-frontend/docker-compose.yaml up -d --build
 
 docker-compose -f ./britecore-frontend/docker-compose.yaml run --rm vue sh -c "npm install"
 
-echo "Checking connectivity with Postgres, please wait..."
+echo "Checking the connectivity with Postgres, please wait..."
 
 until docker container exec -it api pg_isready -U postgres -h postgres; do
   echo "Waiting for Postgres... "
