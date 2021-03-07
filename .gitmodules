@@ -1,0 +1,4 @@
+[submodule "britecore-frontend"]
+	path = britecore-frontend
+	url = https://github.com/savioli/britecore-frontend.git
+	branch = develop
