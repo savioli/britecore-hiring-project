@@ -2,3 +2,11 @@
 	path = britecore-frontend
 	url = https://github.com/savioli/britecore-frontend.git
 	branch = develop
+[submodule "britecore-backend"]
+	path = britecore-backend
+	url = https://github.com/savioli/britecore-backend.git
+	branch = develop
+[submodule "britecore-api-specs"]
+	path = britecore-api-specs
+	url = https://github.com/savioli/britecore-api-specs.git
+	branch = develop
