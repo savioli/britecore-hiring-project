@@ -48,6 +48,11 @@ they are able to create their own personalized risk types and attach as many dif
   More information about each repo can be found in their respective repository.
 </div>
 
+## GitFlow
+
+This project and its sub-projects use [**GitFlow**](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow).  
+##### Stats: **42** Pull Requests, 310 **Commits**, 46 **Branches**
+
 ## Demo
 
 Want to see the project in action?
