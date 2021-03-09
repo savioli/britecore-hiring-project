@@ -67,23 +67,23 @@ Want to see the project in action?
 </br>
 
 **Table of Contents**  
-[**Getting Started**](#)  
-&nbsp;&nbsp;&nbsp;[Requirements](#)  
-[**1** Development Environment](#)  
-&nbsp;&nbsp;&nbsp;[**1.1** How to run it?](#)  
-&nbsp;&nbsp;&nbsp;[**1.2** Where is the application running?](#)  
-[**2** Deliverables](#)  
-&nbsp;&nbsp;&nbsp;[**2.1** Data](#)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2.1.1 Extra Deliverables for the Data**](#)  
-&nbsp;&nbsp;&nbsp;[**2.2** BackEnd](#)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2.2.1 Extra Deliverables for the BackEnd**](#)  
-&nbsp;&nbsp;&nbsp;[**2.3** FrontEnd](#)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2.3.1 Extra Deliverables for the FrontEnd**](#)  
-&nbsp;&nbsp;&nbsp;[**2.4** Production environment](#)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2.4.1 Extra Deliverables for the Production Environment**](#)  
-&nbsp;&nbsp;&nbsp;[**2.5 General Extra Deliverables**](#)  
-[**3 Production Environment - CloudFormation with AWS and Fargate**](#)  
-&nbsp;&nbsp;&nbsp;[**3.1** How to deploy it?](#)  
+**Getting Started**  
+&nbsp;&nbsp;&nbsp;Requirements  
+**1** Development Environment  
+&nbsp;&nbsp;&nbsp;**1.1** How to run it?  
+&nbsp;&nbsp;&nbsp;**1.2** Where is the application running?  
+**2** Deliverables  
+&nbsp;&nbsp;&nbsp;**2.1** Data  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.1.1 Extra Deliverables for the Data**  
+&nbsp;&nbsp;&nbsp;**2.2** BackEnd  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.2.1 Extra Deliverables for the BackEnd**  
+&nbsp;&nbsp;&nbsp;**2.3** FrontEnd  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.3.1 Extra Deliverables for the FrontEnd**  
+&nbsp;&nbsp;&nbsp;**2.4** Production environment  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.4.1 Extra Deliverables for the Production Environment**  
+&nbsp;&nbsp;&nbsp;**2.5 General Extra Deliverables**  
+**3 Production Environment - CloudFormation with AWS and Fargate**  
+&nbsp;&nbsp;&nbsp;**3.1** How to deploy it?  
 
 </br>
 
@@ -173,7 +173,7 @@ and the **Extras Deliverables**.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3** - Both!   :heavy_check_mark: **Done!**  
 
-### [**2.1.1 Extra Deliverables for BackEnd**]()  
+### **2.1.1 Extra Deliverables for BackEnd**  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1** - Setup of **Adminer** in the development environment to easily browse the **Postgres** database  
 
@@ -211,9 +211,10 @@ and the **Extras Deliverables**.
 
       $ docker-compose run --rm api python manage.py test
 
-### [**2.2.1 Extra Deliverables for BackEnd**]()  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1** - A repository configured using **[pre-commit]()** with **[flake8](#)**, **[isort](#)**, and **[black](#)** to **enforce style guide** and to perform static code analysis 
-to identify problematic patterns and **avoid antipatterns** as well as enforcing the **PEP8 compliance**.  
+### **2.2.1 Extra Deliverables for BackEnd**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1** - A repository configured using **[pre-commit]()** with **[flake8](#)**, **[isort](#)**, and **[black](#)** 
+to **enforce style guide** and to perform static 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code analysis to identify problematic patterns and **avoid antipatterns** as well as enforcing the **PEP8 compliance**.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2** - **API Specification** using **Swagger** with **OpenAPI Specification 3**.  
 
 ## 2.3 FrontEnd
@@ -225,7 +226,7 @@ to identify problematic patterns and **avoid antipatterns** as well as enforcing
 
 :link: **FrontEnd AWS** [**link**](http://brite-loadb-m9g2pa4z1ubc-e1601d39297253df.elb.us-east-2.amazonaws.com:3000/)  
 
-### [**2.3.1 Extra Deliverables for FrontEnd**](#)  
+### **2.3.1 Extra Deliverables for FrontEnd**  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1** - A repository configured with **ESLint** and **Prettier** to enforce **style guide** and to **perform static code analysis** to **identify problematic patterns** also **enforcing the Vue 3 development guidelines**.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2** - A **Search by Risk Name** in the listing of risks  
@@ -251,7 +252,7 @@ to identify problematic patterns and **avoid antipatterns** as well as enforcing
 :page_facing_up: 
 [britecore-api-specs.cfn](https://github.com/savioli/britecore-api-specs/blob/develop/deploy/britecore-api-specs.cfn)  
 
-### [**2.4.1 Extra Deliverables for Production Environment**]()  
+### **2.4.1 Extra Deliverables for Production Environment**  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1** - Usage of **Alpine** base images to allow the creation of **light images and containers**.    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2** - Exclusive **Dockerfiles** ready for the production environments were written for the **FrontEnd** and the **BackEnd**.  
@@ -259,7 +260,7 @@ to identify problematic patterns and **avoid antipatterns** as well as enforcing
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**4** - Images **fully configurable** through **Environment Variables**.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**5** - Usage of **Docker Compose CLI** to deploy in **AWS with ECS and Fargate**.  
 
-## [2.5 General Extra Deliverables]()
+## 2.5 General Extra Deliverables
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1** - **BackEnd**, **FrontEnd**, **API specification** development environments using **Docker** and **Docker Compose**.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2** - Usage of **Alpine** base images also in the **development environment**.  
@@ -306,14 +307,14 @@ Each repository has the following specific **deploy directory** that includes th
 
 #### Description of some files of the structure: 
 
-**1.** [<**repository-name**>**.cfn**](): contains the **CloudFormation** definition to deploy to AWS using **ECS and Fargate**  
-**2.** **image-build-and-push.sh**: automates the **Build** and **Push** of the image using the images ready for production,   
-&nbsp;&nbsp;&nbsp;&nbsp;not the development ones.  
-**3.** **deploy-cfn.sh**: deploys the configuration to **AWS** setting up everything.  
-**4.** [**python.prod.env**](): contains the environment variables for the production environment of the **BackEnd**.  
-**5.** [**vue.prod.env**](): contains the environment variables for the production environment of the **FrontEnd**.  
-**5.** [**docker-compose-prod.yaml**](): contains the infrastructure of the production environment   
-&nbsp;&nbsp;&nbsp;&nbsp;described in a **Docker Compose** format.
+&nbsp;&nbsp;&nbsp;&nbsp;**1.** [<**repository-name**>**.cfn**](): contains the **CloudFormation** definition to deploy to AWS using **ECS and Fargate**  
+&nbsp;&nbsp;&nbsp;&nbsp;**2.** **image-build-and-push.sh**: automates the **Build** and **Push** of the image using the images ready for production,   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;not the development ones.  
+&nbsp;&nbsp;&nbsp;&nbsp;**3.** **deploy-cfn.sh**: deploys the configuration to **AWS** setting up everything.  
+&nbsp;&nbsp;&nbsp;&nbsp;**4.** [**python.prod.env**](): contains the environment variables for the production environment of the **BackEnd**.  
+&nbsp;&nbsp;&nbsp;&nbsp;**5.** [**vue.prod.env**](): contains the environment variables for the production environment of the **FrontEnd**.  
+&nbsp;&nbsp;&nbsp;&nbsp;**5.** [**docker-compose-prod.yaml**](): contains the infrastructure of the production environment   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;described in a **Docker Compose** format.
 
 With that in mind it is necessary to run the following commands on each repository:
 
@@ -341,6 +342,8 @@ But an even better practice is to use **AWS Secrets Manager**, but for this proj
 #### **Example**  
 
 Here is an example of what is expected when running the scripts mentioned.
+
+<img src="https://raw.githubusercontent.com/savioli/britecore-hiring-project/feature/documentation-enhancements/resources/images/britecore-frontend-deployment-aws.png?token=AB47BH6HV3JFOABU4HNSRFDAI256W"/>
 
 ---
 
