@@ -313,13 +313,13 @@ Each repository has the following specific **deploy directory** that includes th
 
 #### Description of some files of the structure: 
 
-&nbsp;&nbsp;&nbsp;&nbsp;**1.** [<**repository-name**>**.cfn**](#): contains the **CloudFormation** definition to deploy to AWS using **ECS and Fargate**  
-&nbsp;&nbsp;&nbsp;&nbsp;**2.** [**image-build-and-push.sh**](#): automates the **Build** and **Push** of the image using the images ready for production,   
+&nbsp;&nbsp;&nbsp;&nbsp;**1.** <**repository-name**>**.cfn**: contains the **CloudFormation** definition to deploy to AWS using **ECS and Fargate**  
+&nbsp;&nbsp;&nbsp;&nbsp;**2.** **<span>image-build-and-push</span>.sh**: automates the **Build** and **Push** of the image using the images ready for production,   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;not the development ones.  
-&nbsp;&nbsp;&nbsp;&nbsp;**3.** [**deploy-cfn.sh**](#): deploys the configuration to **AWS** setting up everything.  
-&nbsp;&nbsp;&nbsp;&nbsp;**4.** [**python.prod.env**](#): contains the environment variables for the production environment of the **BackEnd**.  
-&nbsp;&nbsp;&nbsp;&nbsp;**5.** [**vue.prod.env**](#): contains the environment variables for the production environment of the **FrontEnd**.  
-&nbsp;&nbsp;&nbsp;&nbsp;**5.** [**docker-compose-prod.yaml**](#): contains the infrastructure of the production environment   
+&nbsp;&nbsp;&nbsp;&nbsp;**3.** **</span>deploy-cfn</span>.sh**: deploys the configuration to **AWS** setting up everything.  
+&nbsp;&nbsp;&nbsp;&nbsp;**4.** **python.prod.env**: contains the environment variables for the production environment of the **BackEnd**.  
+&nbsp;&nbsp;&nbsp;&nbsp;**5.** **vue.prod.env**: contains the environment variables for the production environment of the **FrontEnd**.  
+&nbsp;&nbsp;&nbsp;&nbsp;**5.** **docker-compose-prod.yaml**: contains the infrastructure of the production environment   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;described in a **Docker Compose** format.
 
 With that in mind it is necessary to run the following commands on each repository:
