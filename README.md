@@ -188,7 +188,7 @@ and the **Extras Deliverables**.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and any other data about the fields.    :heavy_check_mark: **Done!**  
 
 
-:link: **BackEnd AWS** [**link** /risks/1](http://brite-loadb-1njwocj6hj7ym-f74b7eba9107ddc7.elb.us-east-2.amazonaws.com:8000/api/v1/risks)  
+:link: **BackEnd AWS** [**link** /risks/1](http://brite-loadb-1njwocj6hj7ym-f74b7eba9107ddc7.elb.us-east-2.amazonaws.com:8000/api/v1/risks/1)  
 :link: **Swagger AWS** [**link to** getRiskById](http://brite-loadb-1vbk7vsrf98qz-cdcb394367bed728.elb.us-east-2.amazonaws.com:8080/#/risks/getRiskById)  
 
 **Comments:**
