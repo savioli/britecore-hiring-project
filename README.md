@@ -219,8 +219,8 @@ and the **Extras Deliverables**.
 
 ### **2.2.1 Extra Deliverables for BackEnd**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1** - A repository configured using **[pre-commit]()** with **[flake8](#)**, **[isort](#)**, and **[black](#)** 
-to **enforce style guide** and to perform static 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code analysis to identify problematic patterns and **avoid antipatterns** as well as enforcing the **PEP8 compliance**.  
+to **enforce style guide** and to perform 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static code analysis to identify problematic patterns and **avoid antipatterns** as well as enforcing the **PEP8 compliance**.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2** - **API Specification** using **Swagger** with **OpenAPI Specification 3**.  
 
 ## 2.3 FrontEnd
