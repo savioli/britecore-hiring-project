@@ -59,8 +59,14 @@ Want to see the project in action?
 
 :link: [**FrontEnd Application - AWS**](http://brite-loadb-m9g2pa4z1ubc-e1601d39297253df.elb.us-east-2.amazonaws.com:3000/)  
 
-:link: [**BackEnd Application - AWS**](http://brite-loadb-1njwocj6hj7ym-f74b7eba9107ddc7.elb.us-east-2.amazonaws.com:8000/api/v1/)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This link is for the **BASE_URL** and not to an endpoint. You will receive a **Not Found**.
+:link: **BackEnd Application - AWS**  
+
+```text
+http://brite-loadb-1njwocj6hj7ym-f74b7eba9107ddc7.elb.us-east-2.amazonaws.com:8000/api/v1/risks
+http://brite-loadb-1njwocj6hj7ym-f74b7eba9107ddc7.elb.us-east-2.amazonaws.com:8000/api/v1/risks/:id
+```
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**http://brite-loadb-1njwocj6hj7ym-f74b7eba9107ddc7.elb.us-east-2.amazonaws.com:8000/api/v1/**   -->
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This link is for the **API BASE_URL** and not to an endpoint. You will receive a **Not Found**. -->
 
 :link: [**Swagger Application - AWS**](http://brite-loadb-1vbk7vsrf98qz-cdcb394367bed728.elb.us-east-2.amazonaws.com:8080/)
 
