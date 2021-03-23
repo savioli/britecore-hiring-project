@@ -57,6 +57,8 @@ This project and its sub-projects use [**GitFlow**](https://www.atlassian.com/br
 
 Want to see the project in action?
 
+:warning: **The demo is currently offline**
+
 :link: [**FrontEnd Application - AWS**](http://brite-loadb-m9g2pa4z1ubc-e1601d39297253df.elb.us-east-2.amazonaws.com:3000/)  
 
 :link: **BackEnd Application - AWS**  
